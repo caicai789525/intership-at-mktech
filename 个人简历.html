@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <style type="text/css">
+        /* flex 布局 */
+        .resume-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 20px;
+        }
+
+        /* 基本网格 */
+        .grid-container {
+            display: grid;
+            gap: 0px;
+            width: 900px;
+            border: 2px solid black;
+            grid-auto-rows: 50px;
+
+        }
+
+        .grid-item {
+            border: 2px solid black;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 表格最小单位大小 */
+        .personal-resume {
+            grid-template-columns: repeat(21, 1fr);
+        }
+
+        /* 颜色 */
+        .color-gray {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="resume-container">
+    <div class="grid-container personal-resume">
+        <div class="grid-item" style="grid-column: span 21">个人简历</div>
+        <div class="grid-item color-gray" style="grid-column: span 21">基本资料</div>
+        <div class="grid-item" style="grid-column: span 3">姓名</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">性别</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">出生年月</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3; grid-row: span 4">照片</div>
+        <div class="grid-item" style="grid-column: span 3">学历</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">民族</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">政治面貌</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">专业</div>
+        <div class="grid-item" style="grid-column: span 9"></div>
+        <div class="grid-item" style="grid-column: span 3">健康状况</div>
+        <div class="grid-item" style="grid-column: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">籍贯</div>
+        <div class="grid-item" style="grid-column: span 15"></div>
+        <div class="grid-item" style="grid-column: span 3">毕业院校</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3">求职意向</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3; grid-row: span 3">教育背景</div>
+        <div class="grid-item" style="grid-column: span 18; grid-row: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3">专业证书</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item color-gray" style="grid-column: span 21">综合素质</div>
+        <div class="grid-item" style="grid-column: span 3">计算机水平</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3">外语水平</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3; grid-row: span 3">工作经历</div>
+        <div class="grid-item" style="grid-column: span 18; grid-row: span 3"></div>
+        <div class="grid-item" style="grid-column: span 3; grid-row: span 3">自我评价</div>
+        <div class="grid-item" style="grid-column: span 18; grid-row: span 3"></div>
+        <div class="grid-item color-gray" style="grid-column: span 21">联系方式</div>
+        <div class="grid-item" style="grid-column: span 3">电&emsp;话：</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3">E-mail：</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+        <div class="grid-item" style="grid-column: span 3">地&emsp;址：</div>
+        <div class="grid-item" style="grid-column: span 18"></div>
+    </div>
+</div>
+</body>
+
+</html>
