@@ -20,3 +20,6 @@ export default{
     WEATHER_API_URL:'你的WEATHER_API_URL'
 };
 ```
+
+## 效果图
+![img.png](img.png)
